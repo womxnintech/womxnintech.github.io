@@ -6,7 +6,7 @@ This repo contains the source code for the Womxn in Tech Conference, an initiati
 
 To run the development server, run `gatsby develop`.
 
-To deploy into the gh-pages environment, run `npm run deploy'.
+To deploy into the gh-pages environment, run `npm run deploy`.
 
 ## Credits
 
