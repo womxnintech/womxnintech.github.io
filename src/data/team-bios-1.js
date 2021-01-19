@@ -22,5 +22,5 @@ export default [
     customerName: 'Jane Smith',
     customerTitle: 'Director of Research and Data',
     customerImage: 'https://placeimg.com/150/150/people'
-  }
+  },
 ];
