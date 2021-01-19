@@ -17,7 +17,7 @@ export default () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Womxn in Tech Conference
+            Womxn in Tech Conference 2021
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
           The Womxn in Tech Conference is a two-day conference for UC Berkeley students. Participants will have the opportunity to have 1-on-1 conversations with company recruiters and attend workshops and panels. 
@@ -65,7 +65,96 @@ export default () => (
               </p>
             </Card>
           </div>
+          <div className="flex-1 px-3">
+            <Card className="mb-8">
+              <p className="font-semibold text-xl">Service Three</p>
+              <p className="mt-4">
+                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
+                velna vitae auctor integer.
+              </p>
+            </Card>
+          </div>
         </div>
+
+
+        <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
+          <div className="flex-1 px-3">
+            <Card className="mb-8">
+              <p className="font-semibold text-xl">Service One</p>
+              <p className="mt-4">
+                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
+                velna vitae auctor integer.
+              </p>
+            </Card>
+          </div>
+          <div className="flex-1 px-3">
+            <Card className="mb-8">
+              <p className="font-semibold text-xl">Service Two</p>
+              <p className="mt-4">
+                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
+                velna vitae auctor integer.
+              </p>
+            </Card>
+          </div>
+          <div className="flex-1 px-3">
+            <Card className="mb-8">
+              <p className="font-semibold text-xl">Service Three</p>
+              <p className="mt-4">
+                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
+                velna vitae auctor integer.
+              </p>
+            </Card>
+          </div>
+          <div className="flex-1 px-3">
+            <Card className="mb-8">
+              <p className="font-semibold text-xl">Service Three</p>
+              <p className="mt-4">
+                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
+                velna vitae auctor integer.
+              </p>
+            </Card>
+          </div>
+        </div>
+
+        <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
+          <div className="flex-1 px-3">
+            <Card className="mb-8">
+              <p className="font-semibold text-xl">Service One</p>
+              <p className="mt-4">
+                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
+                velna vitae auctor integer.
+              </p>
+            </Card>
+          </div>
+          <div className="flex-1 px-3">
+            <Card className="mb-8">
+              <p className="font-semibold text-xl">Service Two</p>
+              <p className="mt-4">
+                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
+                velna vitae auctor integer.
+              </p>
+            </Card>
+          </div>
+          <div className="flex-1 px-3">
+            <Card className="mb-8">
+              <p className="font-semibold text-xl">Service Three</p>
+              <p className="mt-4">
+                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
+                velna vitae auctor integer.
+              </p>
+            </Card>
+          </div>
+          <div className="flex-1 px-3">
+            <Card className="mb-8">
+              <p className="font-semibold text-xl">Service Three</p>
+              <p className="mt-4">
+                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
+                velna vitae auctor integer.
+              </p>
+            </Card>
+          </div>
+        </div>
+        
       </div>
     </section>
     <SplitSection
