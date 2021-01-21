@@ -80,7 +80,7 @@ export default () => (
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">Resume Workshop</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            TBD: Stay tuned for updated!
+            TBD: Stay tuned for updates!
           </p>
         </div>
       }
@@ -91,10 +91,10 @@ export default () => (
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Industry Panel
+            Industry Insiders Panel
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            TBD: Stay tuned for updated!
+            TBD: Stay tuned for updates!
           </p>
         </div>
       }
