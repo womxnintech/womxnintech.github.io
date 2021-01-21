@@ -25,6 +25,12 @@ export default () => (
           <p className="text-xl lg:text-2xl mt-6 font-light">
           The Womxn in Tech Conference is a two-day conference for UC Berkeley students. Participants will have the opportunity to have 1-on-1 conversations with company recruiters and attend workshops and panels. 
           </p>
+          <p className="text-xl lg:text-xl mt-6 font-light">
+            Friday, February 12th, 2021 from 3PM - 6PM 
+          </p>
+          <p className="text-xl lg:text-xl mt-0 font-light">
+            Saturday, February 13th, 2021 from 9AM -12PM 
+          </p>
           <p className="mt-8 md:mt-12">
             <a href='https://docs.google.com/forms/d/1SccRhnBNX2VPLPHfJaJTT1EaNWVP3We7pwdJnd0k-AQ/edit?usp=sharing' target="_blank" rel="noopener noreferrer"> 
               <Button size="lg">Interest Form</Button>
