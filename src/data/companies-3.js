@@ -12,7 +12,7 @@ export default [
     {
       name: 'Group One Trading', 
       description: 'Group One is a leading specialist and market maker in exchange listed derivatives. Headquartered in Chicago, we maintain a floor presence with specialist posts on the Chicago Board Options Exchange and NYSE AMEX.',
-      logo:'http://www.group1.com/wp-content/uploads/2017/09/G1NewLogoWhite.jpg',
+      logo:'https://lh3.googleusercontent.com/proxy/BDcfM9sQqV9Wom8qLE510PM_pn1vjndjG44jGvzxPPx0D1tWlVEPIygsWpPD_gwzmBHtDNRuiM0rnIpJK6c20nO5Jt8b4NKGESs3iLLSSJrjBtvyN98XtNL4Xw',
     },
   ];
   
