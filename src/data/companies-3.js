@@ -10,9 +10,9 @@ export default [
         logo:'https://www.ischool.berkeley.edu/sites/default/files/styles/facebook_image/public/event_teaser_image/tanium_logo.png?itok=zgTCn9uK',
     },
     {
-        name: 'Go Health', 
-        description: 'As a leading health insurance marketplace, GoHealth’s mission is to improve access to healthcare in America. We use our technology, agents, and expertise to cut through the confusion and get customers enrolled in a plan with the right coverage and benefits.', 
-        logo:'https://www.gohealth.com/wp-content/uploads/2020/08/fb-image.jpg',
+      name: 'Group One Trading', 
+      description: 'Group One is a leading specialist and market maker in exchange listed derivatives. Headquartered in Chicago, we maintain a floor presence with specialist posts on the Chicago Board Options Exchange and NYSE AMEX.',
+      logo:'http://www.group1.com/wp-content/uploads/2017/09/G1NewLogoWhite.jpg',
     },
   ];
   

@@ -72,7 +72,7 @@ export default () => (
 
         <div className="flex flex-col sm:flex-row sm:-mx-3">
           {companies4.map(company => (
-            <div className="flex-1 px-24" key={company.name}>
+            <div className="flex-1 px-64" key={company.name}>
               <CompanyCard company={company} />
             </div>
           ))}
