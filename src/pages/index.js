@@ -100,7 +100,10 @@ export default () => (
             Industry Insiders Panel
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            TBD: Stay tuned for updates!
+            Join a Q & A panel with representatives from the companies to learn more about careers in tech! 
+          </p>
+          <p className="mt-8 text-xl font-light leading-relaxed">
+            Friday, February 12th at 5:00 PM PST
           </p>
         </div>
       }

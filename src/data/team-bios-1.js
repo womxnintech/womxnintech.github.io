@@ -7,11 +7,11 @@ export default [
   {
     name: 'John Park',
     bio: 'Hi, I’m John, a senior studying computer science and economics. In my free time, I enjoy taking naps, playing the cello, and trying new things (I’ve recently gotten into soldering small projects).',
-    picture: 'https://lh5.googleusercontent.com/krsphRP2SZj8I1Oh4HnnJMfZ4Sc-TLO3H30vxMQdGA7nNhnPNwkFGrK0lqqiZUPJyocs-7YxMGO65doXV5oDb3sv09uzsJR52Kux9Fv7'
+    picture: 'https://lh6.googleusercontent.com/UdPokSZoxGM2HLYg3IFDoyjO2QUX5LniecdGetBjFkb9Y2WFfeBYgkwJ21CLHNiWuhq8XPhvIWsX2C0yl5Z2hUT1WoRKgzBkkLY1GKlEfA8dwnCe2NhZndCmOcbaDv9wvtEygfy1'
   },
   {
     name: 'Allison Jung',
     bio: 'Hello, I’m Allison! I am a  first-year electrical engineering and computer science student. In my free time, I like to try new foods, go on runs and hikes, and play music.',
-    picture: 'https://lh4.googleusercontent.com/wPHHD-t8MSerLIDK26edtaIyGxUGms8TDs0Y3EWXqugZll6kHj6gaQ2jzAyXR5eH0DnBZQhHoArrfcPxq1QgU5rxSkA524U-6ySNf_U7'
+    picture: 'https://lh5.googleusercontent.com/xuVFgl4D4kBJWYyat2lzuocUVraD7CPL-O18M3RLaB8YZWsbd0-KPtpcRWUemb4GFi7124L-4LxPokEAsmyM4eyMKLBHhmXwDb5uTAjgt4xLJ4krEPWBgmqWJg2mJADVcS4mWuht'
   },
 ];
