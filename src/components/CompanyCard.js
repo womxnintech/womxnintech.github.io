@@ -5,11 +5,13 @@ const CompanyCard = ({ company }) => (
     <Card className="mb-8">
 
     {/* <div className="flex-center"> */}
+    <a href={company.website} target="_blank" rel="noopener noreferrer"> 
       <img
         // className="w-24 h-24 ml-12 rounded-full"
         src={company.logo}
         alt={company.name}
       />
+    </a>
       {/* <div>
         <p className="text-xl text-gray-600">{company.name}</p>
       </div> */}
