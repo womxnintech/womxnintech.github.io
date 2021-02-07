@@ -32,11 +32,11 @@ export default () => (
             Saturday, February 13th, 2021 from 9AM -12PM 
           </p>
           <p className="mt-8 md:mt-12">
-            <a href='https://docs.google.com/forms/d/1SccRhnBNX2VPLPHfJaJTT1EaNWVP3We7pwdJnd0k-AQ/edit?usp=sharing' target="_blank" rel="noopener noreferrer"> 
-              <Button size="lg">Interest Form</Button>
+            <a href='https://forms.gle/qK8nKPYXNtTLnHhB8' target="_blank" rel="noopener noreferrer"> 
+              <Button size="lg">Registration Form</Button>
             </a>
           </p>
-          <p className="mt-4 text-gray-600">Fill out our interest form now! Note: You will need to be logged into your Berkeley email</p>
+          <p className="mt-4 text-gray-600">Our registration form is now open! Please note that you need to be signed into your berkeley email.</p>
         </div>
         <div className="lg:w-1/2">
           <HeroImage />
@@ -72,7 +72,7 @@ export default () => (
 
         <div className="flex flex-col sm:flex-row sm:-mx-3">
           {companies4.map(company => (
-            <div className="flex-1 px-64" key={company.name}>
+            <div className="flex-1 px-3" key={company.name}>
               <CompanyCard company={company} />
             </div>
           ))}
@@ -81,12 +81,33 @@ export default () => (
     </section>
 
     <SplitSection
+     reverseOrder
+     primarySlot={
+       <div className="lg:pl-32 xl:pl-48">
+          <h3 className="text-3xl font-semibold leading-tight">Company Presentations</h3>
+          <p className="mt-8 text-xl font-light leading-relaxed">
+            Quickly learn about the awesome companies attending the conference in rapid-fire five minute presentations by company representatives!
+          </p>
+          <p className="mt-8 text-xl font-light leading-relaxed">
+            Friday, February 12th at 3:10 PM PST
+          </p>
+          <p className="mt-2 text-xl font-light leading-relaxed">
+            Saturday, February 13th at 9:10 AM PST
+          </p>
+        </div>
+      }
+      secondarySlot={<SvgCharts />}
+    />
+    <SplitSection
       id="services"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">Resume Workshop</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            TBD: Stay tuned for updates!
+            Join us for a resume workshop, hosted by the Data Science Undergraduate Studies: Peer Consulting team!
+          </p>
+          <p className="mt-8 text-xl font-light leading-relaxed">
+            Friday, February 12th at 4:00 PM PST
           </p>
         </div>
       }
@@ -113,10 +134,22 @@ export default () => (
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            1:1s with Companies
+            1:1s with Company representatives
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Reservations open soon! Fill out our interest form to stay updated!
+            Reservations are now open! Register here:
+          </p>
+          <p className="mt-8 text-xl font-light leading-relaxed">
+            Friday, February 12th at 3:10 PM PST
+          </p>
+          <p className="mt-2 text-xl font-light leading-relaxed">
+            Saturday, February 13th at 9:10 AM PST
+          </p>
+
+          <p className="mt-8 md:mt-12">
+            <a href='https://forms.gle/qK8nKPYXNtTLnHhB8' target="_blank" rel="noopener noreferrer"> 
+              <Button size="lg">Registration Form</Button>
+            </a>
           </p>
         </div>
       }
