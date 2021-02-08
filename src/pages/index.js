@@ -13,6 +13,7 @@ import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 import companies3 from '../data/companies-3';
 import companies4 from '../data/companies-4';
+import partners from '../data/partners';
 
 export default () => (
   <Layout>
@@ -191,14 +192,19 @@ export default () => (
         </div>
       </div>
     </section>
-    {/* <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-      <h3 className="text-5xl font-semibold">Contact Us</h3>
-      <p className="mt-8 text-xl font-light">
-        Feel free to reach us on Facebook!
-      </p>
-      <p className="mt-8">
-        <Button size="xl">Facebook</Button>
-      </p>
-    </section> */}
+
+    <section id="features" className="py-20 lg:pb-40 lg:pt-48">
+      <div className="container mx-auto text-center">
+        <h2 className="text-3xl lg:text-2xl font-semibold">In partnership with</h2>
+        <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
+          {partners.map(company => (
+            <div className="flex-1 px-3" key={company.name}>
+              <CompanyCard company={company} />
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
   </Layout>
 );
