@@ -23,15 +23,18 @@ export default () => (
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
             Womxn in Tech Conference 2021
           </h1>
-          <p className="text-xl lg:text-2xl mt-6 font-light">
+          <h2 className="text-xl lg:text-2xl mt-6 font-light">
           The Womxn in Tech Conference is a two-day conference for UC Berkeley students. Participants will have the opportunity to have 1-on-1 conversations with company recruiters and attend workshops and panels. 
-          </p>
-          <p className="text-xl lg:text-xl mt-6 font-light">
-            Friday, February 12th, 2021 from 3PM - 6PM 
-          </p>
-          <p className="text-xl lg:text-xl mt-0 font-light">
+          </h2>
+          <h2 className="text-xl lg:text-xl mt-6 font-light">
+            Friday, February 12th, 2021 from 3PM - 6PM
+          </h2>
+          <h2 className="text-xl lg:text-xl mt-0 font-light">
             Saturday, February 13th, 2021 from 9AM -12PM 
-          </p>
+          </h2>
+          <h1 className="text-xl lg:text-xl xl:text-xl mt=48 font-bold">
+            1:1 sign-ups close on 2/11 11:59PM PDT for Friday and 2/12 11:59 PDT for Saturday! Sign up now!
+          </h1>
           <p className="mt-8 md:mt-12">
             <a href='https://forms.gle/qK8nKPYXNtTLnHhB8' target="_blank" rel="noopener noreferrer"> 
               <Button size="lg">Registration Form</Button>
@@ -122,7 +125,7 @@ export default () => (
             Industry Insiders Panel
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Join a Q & A panel with representatives from the companies to learn more about careers in tech! 
+            Join a Q & A panel with representatives from the Ginkgo Bioworks and Deliverr to learn more about careers in tech! 
           </p>
           <p className="mt-8 text-xl font-light leading-relaxed">
             Friday, February 12th at 5:00 PM PST
@@ -141,10 +144,10 @@ export default () => (
             Reservations are now open! Register here:
           </p>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Friday, February 12th at 3:10 PM PST
+            Register by 2/11 11:59PM for Friday, February 12th at 3:10 PM PST
           </p>
           <p className="mt-2 text-xl font-light leading-relaxed">
-            Saturday, February 13th at 9:10 AM PST
+          Register by 2/12 11:59PM for Saturday, February 13th at 9:10 AM PST
           </p>
 
           <p className="mt-8 md:mt-12">
